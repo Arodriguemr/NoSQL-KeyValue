@@ -33,7 +33,7 @@ $ py balanceador_de_carga.py
 ```
 Si hay mas de un nodo debes adiccionar los puertos de los nodos de esta manera:
 ```
-$ py balanceador_de_carga.py 5000 5001 5002 5003
+$ py balanceador_de_carga.py -a 5000 5001 5002 5003
 ```
 
 #### Tercero cliente
