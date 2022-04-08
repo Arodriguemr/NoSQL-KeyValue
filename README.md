@@ -13,13 +13,7 @@ $ cd ../path/to/the/file/NoSQL-KeyValue
 ### Ejecución
 ***
 #### Primero nodos
-Se necesita un puerto diferente por nodo, si se va a ejecutar un solo nodo por default estara en el
-puerto 5000, se puede ejecutar de la siguiente manera: 
-```
-$ py nodo.py
-```
-De lo contrario si se quiere mas de un nodo al tiempo se debe ejecutar en diferentes consolas añadiendo como argumento el puerto
-ejemplo:
+Se puede ejecutar de la siguiente manera: 
 ```
 $ py nodo.py 5000
 $ py nodo.py 5001
@@ -27,11 +21,7 @@ $ py nodo.py 5002
 $ py nodo.py 5003
 ```
 #### Segundo balanceardor de carga
-Si solo de dispone un nodo se ejecuta asi:
-```
-$ py balanceador_de_carga.py
-```
-Si hay mas de un nodo debes adiccionar los puertos de los nodos de esta manera:
+Se puede ejecutar de la siguiente manera: 
 ```
 $ py balanceador_de_carga.py -a 5000 5001 5002 5003
 ```
